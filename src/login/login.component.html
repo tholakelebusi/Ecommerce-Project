@@ -1,0 +1,14 @@
+<p>
+	login works!
+</p>
+
+<div>
+
+
+	<form>
+
+		<input placeholder= "Email" name="email" [(ngModel)]="user.email" type="email" matInput required>
+		<input placeholder="Password" name="password" [(ngModel)]="user.password" [type]="hide? 'password':'text'" matInput required >
+		<mat-icon matSuffix (click)="hide=!hide">{{hide? 'visibility':'visibility_off'}}</mat-icon>
+	</form>
+</div>
