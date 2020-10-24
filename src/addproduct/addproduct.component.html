@@ -1,30 +1,31 @@
 <p>
-addproduct works!
+	addproduct works!
 </p>
 
-<div  >
+<div>
 
-  
-  <form>
-     
-      
-        <input placeholder= "Product Name" name="email" [(ngModel)]="productname" type="string" matInput required>
-    
- 
-      
-        <input placeholder="product Name" name="Product Name" [(ngModel)]="productName" type="string" matInput required >
-   
 
-     
-        <input placeholder="Product Price" name="ProductP" [(ngModel)]="productP" type="string" matInput required >
-    
+	<form>
 
-     
-        <input placeholder="Product Description" name="productD" [(ngModel)]="productD" type="string" matInput required >
 
-   <input placeholder="Product Image" name="productPic" [(ngModel)]="productPic" type="text" matInput required >
- 
-      <button type="submit" class="btn btn-success">Submit</button>
- 
-    </form>
+		<input placeholder= "Product Name" name="email"  type="string" matInput required>
+
+
+
+		<input placeholder="product Name" name="Product Name" [(ngModel)]="productName" type="string" matInput required >
+
+
+
+		<input placeholder="Product Price" name="ProductP" [(ngModel)]="productP" type="string" matInput required >
+
+
+
+		<input placeholder="Product Description" name="productD" [(ngModel)]="productD" type="string" matInput required >
+
+		<input placeholder="Product Image" name="productPic" [(ngModel)]="productPic" type="text" matInput required >
+
+		<button (click)="delete()" color="danger">Delete</button>
+		<button type="submit" class="btn btn-success">Submit</button>
+
+	</form>
 </div>

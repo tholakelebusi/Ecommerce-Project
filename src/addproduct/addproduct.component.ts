@@ -12,4 +12,12 @@ export class AddproductComponent implements OnInit {
   ngOnInit() {
   }
 
+productName:string;
+productP:string;
+productD:string;
+productPic:string;
+delete()
+{
+  
+}
 }
