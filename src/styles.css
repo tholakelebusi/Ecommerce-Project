@@ -3,3 +3,16 @@
 body {
   background-image: url("https://images.app.goo.gl/edoSvmgWypmFD3gy6");
 }
+tr{
+  margin-left: 2cm;
+  width:3cm;
+  padding:3cm;
+}
+td{
+    margin-right: 2cm;
+}
+table{
+  padding: 1cm;
+  border:0.2cm solid black;
+  margin:2cm;
+}

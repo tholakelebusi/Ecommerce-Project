@@ -1,29 +1,26 @@
-<p>
-	register works!
-</p>
+<form>
 
-<div>
-
-
-	<form>
-
-
+	<div class="fields">
+		<label>Email</label>
 		<input placeholder= "Email" name="email" type="text" matInput required>
-
-
-
-		<input placeholder="First Name" name="firstName" type="string" matInput required >
-
-
-
-		<input placeholder="Last Name" name="lastName"  type="string" matInput required >
-
-
-
-		<input placeholder="Password" name="password" type="password" matInput required >
-
-
-		<button type="submit" class="btn btn-success">Submit</button>
-
-	</form>
 </div>
+
+		<div class="fields">
+			<label>First Name</label>
+
+			<input placeholder="First Name" name="firstName" type="string" matInput required >
+</div>
+
+			<div class="fields">
+				<label>Last Name</label>
+				<input placeholder="Last Name" name="lastName"  type="string" matInput required >
+</div>
+				<div class="fields">
+					<label>password</label>
+
+					<input placeholder="Password" name="password" type="password" matInput required >
+</div>
+
+					<button type="submit" class="btn btn-success" routerLink="/login">Submit</button>
+
+</form>

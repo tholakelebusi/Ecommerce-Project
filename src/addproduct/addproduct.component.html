@@ -1,8 +1,3 @@
-<p>
-	addproduct works!
-</p>
-
-<div>
 
 
 	<form>
@@ -24,8 +19,9 @@
 
 		<input placeholder="Product Image" name="productPic" [(ngModel)]="productPic" type="text" matInput required >
 
-		<button (click)="delete()" color="danger">Delete</button>
-		<button type="submit" class="btn btn-success">Submit</button>
+		<button type="submit" class="btn btn-success" routerLink="/viewproduct">Add Product</button>
+
+	
+
 
 	</form>
-</div>

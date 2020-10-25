@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router, ActivatedRoute, ParamMap } from '@angular/router';
 
 @Component({
   selector: 'app-addproduct',
@@ -16,8 +17,5 @@ productName:string;
 productP:string;
 productD:string;
 productPic:string;
-delete()
-{
-  
-}
+
 }

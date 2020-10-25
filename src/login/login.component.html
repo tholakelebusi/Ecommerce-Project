@@ -1,14 +1,10 @@
-<p>
-	login works!
-</p>
+<form>
 
-<div>
-
-
-	<form>
-
+	<div class="fields">
 		<input placeholder= "Email" name="email" [(ngModel)]="email" type="text" matInput required>
-		<input placeholder="Password" name="password" [(ngModel)]="password" type="text" matInput required >
-
-	</form>
-</div>
+	</div>
+		<div class="fields">
+			<input placeholder="Password" name="password" [(ngModel)]="password" type="text" matInput required >
+  	</div>
+			<button type="submit" class="btn btn-success" routerLink="/home">Submit</button>
+</form>
