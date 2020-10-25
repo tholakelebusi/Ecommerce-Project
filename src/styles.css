@@ -21,3 +21,17 @@ form {
   margin-left: 8cm;
   margin-top: 1cm;
 }
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
