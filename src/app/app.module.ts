@@ -14,13 +14,17 @@ import { AddproductComponent } from "../addproduct/addproduct.component";
 import {ViewproductComponent} from "../viewproduct/viewproduct.component";
 import {HomeComponent} from "../home/home.component";
 import { MatIconModule } from "@angular/material/icon";
-import {MatButtonModule} from "@angular/material/button";
+import {MatButtonModule,} from "@angular/material/button";
+import {MatCardModule} from '@angular/material/card';
+
+
+
 
 
 
 
 @NgModule({
-  imports: [BrowserModule, FormsModule, MatIconModule,MatButtonModule,AppRoutingModule,RouterModule],
+  imports: [BrowserModule, FormsModule, MatIconModule,MatCardModule,MatButtonModule,AppRoutingModule,RouterModule],
   declarations: [AppComponent,HelloComponent,RegisterComponent,LoginComponent,AddproductComponent,ViewproductComponent,HomeComponent
   ],
   bootstrap: [AppComponent]

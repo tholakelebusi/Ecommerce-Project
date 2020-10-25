@@ -1,10 +1,16 @@
 <form>
-
-	<div class="fields">
-		<input placeholder= "Email" name="email" [(ngModel)]="email" type="text" matInput required>
+	<mat-card>
+		<mat-card-header>
+			Login
+		</mat-card-header>
+	
+			<div class="fields">
+				<input placeholder= "Email" name="email" [(ngModel)]="email" type="text" matInput required>
 	</div>
-		<div class="fields">
-			<input placeholder="Password" name="password" [(ngModel)]="password" type="text" matInput required >
+				<div class="fields">
+					<input placeholder="Password" name="password" [(ngModel)]="password" type="text" matInput required >
   	</div>
-			<button type="submit" class="btn btn-success" routerLink="/home">Submit</button>
+					<button mat-raised-button type="submit" class="btn btn-success" routerLink="/home">Submit</button>
+	
+	</mat-card>
 </form>
