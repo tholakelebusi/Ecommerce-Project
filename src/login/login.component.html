@@ -1,16 +1,28 @@
-<form>
-	<mat-card>
-		<mat-card-header>
-			Login
-		</mat-card-header>
-	
-			<div class="fields">
-				<input placeholder= "Email" name="email" [(ngModel)]="email" type="text" matInput required>
-	</div>
+<div class="container">
+	<img width="100%" height="200" style="text-align: center; background-image:url('');background-repeat: no-repeat;background-size: cover;background-color: rgba(255,255,255,0.6);
+    background-blend-mode: lighten;">
+
+	<div class="centered">
+
+
+		<form>
+
+			<mat-card>
+				<mat-card-header>
+					Login
+				</mat-card-header>
+
 				<div class="fields">
-					<input placeholder="Password" name="password" [(ngModel)]="password" type="text" matInput required >
+					<input placeholder="Username" name="Username" [(ngModel)]="password" type="text" matInput required >
   	</div>
-					<button mat-raised-button type="submit" class="btn btn-success" routerLink="/home">Submit</button>
-	
-	</mat-card>
-</form>
+
+					<div class="fields">
+						<input placeholder="Password" name="password" [(ngModel)]="password" type="text" matInput required >
+  	</div>
+						<button mat-raised-button type="submit" class="btn btn-success" routerLink="/home">Submit</button>
+						<mat-icon class="mat-icon-rtl-mirror" svgIcon="thumb-up"></mat-icon>
+			</mat-card>
+		</form>
+
+	</div>
+</div>
