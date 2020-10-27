@@ -1,12 +1,25 @@
-
 body{
-  background-image: url("https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwce1a40a1/original/90_DST207P-D2VE_D41OH_20_SafetyPinPatentPumps-Pumps-versace-online-store_2_1.jpg?sw=1440&sh=2000&sm=fit&sfrm=jpg");
+background-color: white;
 }
+
 .add
 {
-  margin-top: 1cm;
+  margin-top: 0.cm;
   color: black;
   font-weight: bolder;
   font-style:italic;
+margin-bottom: 1cm;
+}
+.homebackground
+{
+  background-color: white;
+}
 
+.all
+{
+  background-color: white;
+}
+h3
+{
+  color: blue;
 }
