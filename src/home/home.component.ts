@@ -8,9 +8,16 @@ import { Router, ActivatedRoute, ParamMap } from '@angular/router';
 })
 export class HomeComponent implements OnInit {
 
+infor:boolean=false;
   constructor() { }
 
   ngOnInit() {
   }
 
+
+details()
+{
+this.infor=true;
+
+}
 }
