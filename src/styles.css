@@ -1,8 +1,8 @@
 /* Add application styles & imports to this file! https://images.app.goo.gl/Ke1Chkf1sJFNBtGs7*/
-
+@import "bootstrap/dist/css/bootstrap.min.css";
 body {
-  background-image: url("https://www.lovethispic.com/uploaded_images/66646-Royal-Blue-Heels-Bag.jpg");
-  position:relative;
+  background-image: url("https://i.pinimg.com/originals/e0/a6/30/e0a6304442b719e7800f611071f582a2.jpg");
+  position: relative;
 }
 td {
   padding: 15px;
@@ -15,7 +15,7 @@ th {
   height: 0.5cm;
   font-style: italic;
   font-weight: bolder;
-  background-color: #4caf50;
+  background-color: black;
 }
 form {
   padding: 1cm;
@@ -37,11 +37,9 @@ form {
   color: white;
   margin-top: 2cm;
   margin-left: 10%;
-  margin-right:50%;
+  margin-right: 50%;
 }
 
 .example-card {
   max-width: 400px;
 }
-
-
